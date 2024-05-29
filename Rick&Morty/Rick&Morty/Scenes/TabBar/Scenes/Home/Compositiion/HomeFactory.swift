@@ -3,10 +3,9 @@ import UIKit
 struct HomeFactory {
     
     
-    func makeHomeScene() -> UIViewController {
+    func makeHomeScene(delegate: HomeSceneDelegate) -> UIViewController {
         
-        let homeScene = HomeScene()
-        homeScene.title = "Home"
+        let homeScene = HomeScene(delegate: delegate)
         
         return homeScene
         

@@ -14,9 +14,9 @@ struct FavoritesFactory {
     
     func makeItemTabBar(navigation: Navigation) {
         makeItemTabBar(navigation: navigation,
-                       title: "favoritesScene",
-                       image: "house",
-                       selectedimage: "house.fill")
+                       title: "Favorites",
+                       image: "heart",
+                       selectedimage: "heart.fill")
     }
 }
 
