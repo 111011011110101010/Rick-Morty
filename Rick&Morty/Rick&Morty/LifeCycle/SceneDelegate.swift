@@ -3,8 +3,9 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    var appCoordinator: Coordinator?
-    var appFactory: AppFactory?
+    
+    private var appCoordinator: Coordinator?
+    private var appFactory: AppFactory?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 

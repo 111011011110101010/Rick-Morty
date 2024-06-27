@@ -8,11 +8,7 @@ protocol HomeSceneDelegate: AnyObject {
 }
 
 final class HomeScene: UIViewController, HomeSceneBaseViewDelegate {
-    
-    func didTapHomeSceneBaseView(title: String) {
-        delegate?.didTap(title: title)
-    }
-    
+        
     lazy var baseView = HomeSceneBaseView(delegate: self)
     
     weak var delegate: HomeSceneDelegate?
@@ -29,6 +25,10 @@ final class HomeScene: UIViewController, HomeSceneBaseViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSubViews()
+    }
+    
+    func didTapHomeSceneBaseView(title: String) {
+        delegate?.didTap(title: title)
     }
     
     func setupSubViews() {

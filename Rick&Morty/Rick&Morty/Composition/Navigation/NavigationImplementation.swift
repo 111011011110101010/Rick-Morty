@@ -1,6 +1,6 @@
 import UIKit
 
-final class NavigationImplementation: NSObject {
+final class NavigationImplementation: NSObject, Navigation {
     
     var rootViewController: UINavigationController
     
@@ -46,8 +46,6 @@ final class NavigationImplementation: NSObject {
         
     }
 }
-
-extension NavigationImplementation: Navigation {}
 
 extension NavigationImplementation: UINavigationControllerDelegate {
     

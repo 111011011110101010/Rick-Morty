@@ -1,10 +1,3 @@
-//
-//  Rick_MortyTests.swift
-//  Rick&MortyTests
-//
-//  Created by newuser on 27.05.2024.
-//
-
 import XCTest
 @testable import Rick_Morty
 

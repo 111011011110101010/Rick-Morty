@@ -3,16 +3,6 @@ import UIKit
 
 final class HomeCoordinator: Coordinator {
     
-    
-    
-    
-    
-    
-    
-   
-    
-    
-    
     var navigation: Navigation
     var factory: HomeFactory
     var childCoordinators: [Coordinator] = []
